@@ -1,0 +1,352 @@
+ 
+
+body{
+  background-color:grey;
+  }
+  
+header{
+display: block;
+width: 1115px;
+height: 145px;
+margin: 0 auto;	
+background: #000000;
+padding-top: 20px;	
+  }
+  
+h1,h4,h3 {
+color: blue;
+text-align: center;
+}
+
+
+/*2. Text effects */
+h2#glory{
+text-shadow:5px 5px 10px #0000ff;
+}
+
+
+/*2. Text effects */
+h3.bright{
+text-shadow: 0 0 3px #FF0000;
+}
+
+
+/*3.b pseudo element*/
+::selection {
+    color: red; 
+    background: yellow;
+}
+
+
+/*3. c Structural selector*/
+p:first-child {
+    padding: 5px 10px;
+    border-radius: 2px;
+    background: #8960a7;
+    color: #fff;
+    border: 1px solid #5b456a;
+}
+
+
+/*3. c Structural selector*/
+/*3.d Border*/
+section:first-of-type {
+border: #f0f0f0 2px dotted;
+}
+
+
+/*3. d Negation Pseudo class*/
+form:not(input){
+color:#996600;
+}
+
+/*2. Shadow */
+aside.shadow{
+ box-shadow: 10px 10px #000000;
+}
+
+/*2. Shadow */
+aside.shade{
+box-shadow: 10px 10px 5px #292929;
+}
+
+
+/* 1. Font, Arial*/
+h2.heading{
+font:normal bold 14px Arial;
+margin-left:10px;
+}
+
+nav{
+  width: 1115px;
+  height: 35px;
+  padding-bottom: 15px;
+  text-align: center; 
+  margin: 0 auto;
+  background-color:#669900; 
+}
+
+li {
+    float: center;
+   display: inline;	 
+}
+
+ul {
+list-style-type: none; 
+margin:0;	
+padding-left: 22%;
+overflow: hidden;
+position:relative;
+float:center;
+}
+
+ 
+/* 1. Font, News Cycle, Arial and sans-serif*/
+ ul#nav li 
+{ float: left;
+  font: bold 130% 'News Cycle', Arial, sans-serif; 
+  text-shadow: 0px 1px 0px #000; 
+  background: transparent;  
+  text-align: center;
+  text-decoration: none;
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px; 
+  margin: 8px 20px 0 0;  
+  padding: 5px 8px 5px 8px;
+  width: 100px;
+  list-style: none;
+  display: inline;   
+  } 
+
+
+/*2. Color #0055D4*/  
+/*3. f  Gradient*/
+ul#nav li.current, ul#nav li:hover a
+{ color: #FFF;
+  background: #0055D4;
+  background: -moz-linear-gradient(#43A9FF, #0043A8);
+  background: -o-linear-gradient(#43A9FF, #0043A8);
+  background: -webkit-linear-gradient(#43A9FF, #0043A8);
+  text-shadow: none;
+  border-radius: 7px 7px 7px 7px;
+ -moz-border-radius: 7px 7px 7px 7px;
+ -webkit-border: 7px 7px 7px 7px;  
+ padding: 5px 8px 5px 8px;
+ width: 100px;
+  }
+  
+ /* 1. Font, Bold*/ 
+a, a:hover
+{  color: #FFF;
+  background: transparent;
+  font-weight: bold;
+  outline: none;
+ text-decoration: none;
+  }
+
+a:hover{ 
+text-decoration: none;
+}
+
+/*The whole content area with article and aside*/
+.contentArea{
+ width: 1115px;
+ margin:0 auto;
+}
+
+.content{
+background:#ffffff;
+width: 800px;
+margin-top: 35px;
+float:left;
+border-top: 1px solid #000000;
+border-bottom: 1px solid #000000;
+border-right:  1px solid #000000;
+border-left: 1px solid #000000;
+}
+
+article{
+margin: 5%;
+margin-top: 35px;
+}
+
+
+/*3.d Border*/
+aside{
+background-color:lightgrey;
+width:280px;
+float:right;
+margin-top: 35px;
+color:#000000;
+padding-right:5px;
+padding-left:5px;
+padding-down:5px; 
+border: 1px solid #000000;
+}
+
+section{
+ display: block;
+}
+
+
+/*3. g Transform*/
+.rotate aside{
+transform:rotate(-10deg);
+}
+
+p{
+text-align:justify;
+}
+
+.title{
+font-family: ProximaNovaSemibold, sans-serif;
+}
+
+/* 1. Font,Verdana, sans-serif combination font*/ 
+span{
+text-decoration:underline;
+font-family: Verdana, sans-serif;
+}
+
+.formLayout{
+  padding: 5px 10px 5px 10px; 
+}
+
+ ol.forms{
+    cursor: pointer;
+    display: block;
+    float: left;
+    width: 100px;
+}
+
+li.inputbar {
+    margin-bottom: 20px;
+}
+
+input, textarea{
+background:lightgrey;
+}
+
+
+.capital{
+text-transform: uppercase;
+}
+
+.text{
+color: #000000;
+}
+
+.text:hover{
+color:#0000ff;
+ }
+
+
+/*3.a for class attribute with suffix Col*/
+[class$="Col"] {
+   display:block;
+}
+
+.firstCol{
+width:430px;
+height:320px;
+float:left;
+}
+
+
+.secondCol{
+width:280px;
+float:right;
+}
+
+.imgCol{
+width:70px;
+float:left;
+}
+
+
+/*Color #ff0000*/
+figcaption{
+ font-weight: bold;
+padding:15px;
+color:#ff0000;
+font-size:12px;
+}
+
+td.w1{
+width:28%;
+}
+
+td.w2{
+width:38%;
+}
+
+td.w3{
+width:33%
+}
+
+
+#contactForm label{
+padding-left:5px;
+padding-top:30px;
+}
+
+
+/*3.a for input type attribute values with text and date */
+#contactForm input[type="text"],  #contactForm input[type="date"]{
+margin-bottom:15px;
+}
+
+#contactForm select, #contactForm textarea{
+margin-bottom:15px;
+}
+
+/*3.a for type attribute value submit*/ 
+#contactForm input[type="submit"]{
+  color: #FFF;
+  background: #0055D4;
+  background: -moz-linear-gradient(#43A9FF, #0043A8);
+  background: -o-linear-gradient(#43A9FF, #0043A8);
+  background: -webkit-linear-gradient(#43A9FF, #0043A8);
+  text-shadow: none;
+  border-radius: 7px 7px 7px 7px;
+ -moz-border-radius: 7px 7px 7px 7px;
+ -webkit-border: 7px 7px 7px 7px;  
+ padding: 5px 8px 5px 8px;
+ width: 100px;
+}
+ 
+
+.outerFooter{
+width: 1110px; 
+  padding-top:10px; 
+  padding-bottom: 30px;  
+  font-weight: bold;
+  text-align: center; 
+  text-shadow: 1px 1px #000;
+  color: #FFF;
+  background: #0043A8;
+  background: -moz-linear-gradient(#43A9FF, #0043A8);
+  background: -o-linear-gradient(#43A9FF, #0043A8);
+  background: -webkit-linear-gradient(#43A9FF, #0043A8);
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border: 15px 15px 15px 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px; 
+  margin-top: 30px;
+  display: block;     
+ 
+  
+}
+
+footer{
+    display: block;
+   margin-top:20px;
+ margin:0 auto;
+   overflow:hidden;
+  width: 1110px; 
+  background:grey;
+  }
+ 
